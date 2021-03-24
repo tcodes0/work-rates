@@ -1,7 +1,9 @@
 {
   "name": "work-rates",
-  "bin": "node index.js",
-  "version": "0.0.2",
+  "bin": {
+    "work-rates": "node index.js"
+  },
+  "version": "0.0.3",
   "description": "Salary reference conversion table among common time frames",
   "keywords": [
     "salary",
