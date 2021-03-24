@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const empty = new Array(130).fill(0);
 const base = empty.map((x, i) => (i + 2) * 5000).reverse();
 const formatted = base.map((year) => ({
