@@ -2,14 +2,6 @@
   "name": "work-rates",
   "version": "0.0.1",
   "description": "Salary reference conversion table among common time frames",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/tcodes0/work-rates.git"
-  },
   "keywords": [
     "salary",
     "rates",
@@ -20,10 +12,29 @@
     "work",
     "table"
   ],
-  "author": "tcodes0 (Raphael T)",
-  "license": "MIT",
+  "homepage": "https://github.com/tcodes0/work-rates#readme",
   "bugs": {
     "url": "https://github.com/tcodes0/work-rates/issues"
   },
-  "homepage": "https://github.com/tcodes0/work-rates#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tcodes0/work-rates.git"
+  },
+  "license": "MIT",
+  "author": "Thom (tcodes0)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo noop",
+    "test": "echo noop",
+    "build": "echo noop",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
+    "prepublishOnly": "npm run lint",
+    "prepublish": "npm test && npm run build",
+    "postpublish": "git push origin master --follow-tags"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
