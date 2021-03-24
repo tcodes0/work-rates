@@ -1,0 +1,29 @@
+{
+  "name": "work-rates",
+  "version": "0.0.1",
+  "description": "Salary reference conversion table among common time frames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tcodes0/work-rates.git"
+  },
+  "keywords": [
+    "salary",
+    "rates",
+    "hourly",
+    "monthly",
+    "yearly",
+    "income",
+    "work",
+    "table"
+  ],
+  "author": "tcodes0 (Raphael T)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcodes0/work-rates/issues"
+  },
+  "homepage": "https://github.com/tcodes0/work-rates#readme"
+}
