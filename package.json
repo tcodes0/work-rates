@@ -1,6 +1,9 @@
 {
   "name": "work-rates",
-  "version": "0.0.2",
+  "bin": {
+    "work-rates": "index.js"
+  },
+  "version": "0.0.3",
   "description": "Salary reference conversion table among common time frames",
   "keywords": [
     "salary",
