@@ -33,5 +33,8 @@
     "prepublishOnly": "npm run lint",
     "prepublish": "npm test && npm run build",
     "postpublish": "git push origin master --follow-tags"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
