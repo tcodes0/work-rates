@@ -35,8 +35,6 @@ function printTable() {
   console.table(formatted);
 }
 
-printTable();
-
 module.exports = {
   hourlyToYearly,
   hourlyToMonthly,
