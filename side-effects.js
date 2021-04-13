@@ -1,3 +1,3 @@
-import { printTable } from ".";
+const { printTable } = require("../work-rates");
 
 printTable();
