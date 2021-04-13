@@ -3,7 +3,7 @@
   "bin": {
     "work-rates": "npmrun.js"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Salary reference conversion table among common time frames",
   "keywords": [
     "salary",
