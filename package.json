@@ -1,7 +1,7 @@
 {
   "name": "work-rates",
   "bin": {
-    "work-rates": "index.js"
+    "work-rates": "side-effects.js"
   },
   "version": "0.0.5",
   "description": "Salary reference conversion table among common time frames",

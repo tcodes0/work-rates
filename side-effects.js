@@ -1,0 +1,3 @@
+import { printTable } from ".";
+
+printTable();
