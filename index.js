@@ -1,5 +1,3 @@
-#! /usr/bin/env node
-
 function hourlyToYearly(hourly) {
   return hourly * 1920.1755589082431;
 }
