@@ -1,7 +1,7 @@
 {
   "name": "work-rates",
   "bin": {
-    "work-rates": "side-effects.js"
+    "work-rates": "npmrun.js"
   },
   "version": "0.1.0",
   "description": "Salary reference conversion table among common time frames",
